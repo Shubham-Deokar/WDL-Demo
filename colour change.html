@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link href="Style.css">
+        <script>
+            getRandomColor();
+            function getRandomColor()
+            {
+                
+                var myArray=['red','green','blue','crimson','purple','pink'];
+                var col= myArray[Math.floor(Math.random() * myArray.length)];
+                document.getElementById('Divchange').style.backgroundColor= col;
+            }
+        </script>
+        <style>
+            .wrapper
+            {
+            width: 120%;
+            height: 120%;
+            position: relative;
+            left: -20px;
+            top: -20px;
+            }
+            #changeColor
+            {
+            font-size: 30px;
+            text-transform: uppercase;
+            padding:20px;
+            border: solid white 1px;
+            color: white;
+            background-color: #232323;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class='wrapper' id="Divchange">
+            <button id='changeColor' onclick="getRandomColor()"> Get Random Colour</button>
+        </div>
+    </body>
+</html>

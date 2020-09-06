@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href='Style.css'>
+        <title>
+            Age Calculator
+        </title>
+        <script>
+            function agecal()
+            {
+                let date =  document.getElementById('date').value;
+                var dateValue=new Date(date);
+                var tdate=new Date();
+                var age= tdate.getFullYear()-dateValue.getFullYear();
+                console.log(age);
+                document.getElementById('displayage').innerHTML=age;
+            }
+        </script>
+    </head>
+    <body>
+        <div class='display'>
+            <label for="birthdate">
+                Enter Your birthdate
+            </label><br>
+            <input type="date" id="date" name="birthdate">
+            <button onclick="agecal()">
+                Submit
+            </button>
+            <h4>Age is displayed below.</h4>
+            <h2 id='displayage'></h2>
+        </div>
+    </body>
+</html>
