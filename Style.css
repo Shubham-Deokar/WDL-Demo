@@ -74,3 +74,21 @@ h1
 {
     font-family: Algerian;
 }
+
+.box
+{
+    padding: 2%;
+    background-color: white;
+    width: 40%;
+    border: solid lightgray 1px;
+    margin: 10%;
+    margin-left: 28%;
+    text-align: left;
+}
+
+span
+{
+    font-size: small;
+    color: red;
+    font-style: italic;
+}
