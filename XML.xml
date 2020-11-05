@@ -1,0 +1,24 @@
+<University>
+	<student>
+   		<name>Ashish</name>
+   		<class>TE</class>
+   		<id>001</id>
+   		<branch>IT</branch>
+		<college>LTCOE </college>
+	</student>
+ 	<student>
+   		<name>Daneil </name>
+   		<class>SE</class>
+   		<id>150</id>
+   		<branch>Computer</branch>
+		<college>RAIT </college>
+ 	</student>
+	<student>
+   		<name>Samay </name>
+   		<class>BE</class>
+   		<id>109</id>
+   		<branch>Computer</branch>
+		<college>SIES </college>
+ 	</student>
+
+</University>
