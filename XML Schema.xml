@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GROCERY xsi:schemalocation="D:\Shubham\shubham.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <to>Shubham</to>
+    <from>DMART SERVICES</from>
+    <type>groceries</type>
+    <price>450rs</price>
+    <subject>THANKYOU FOR VISITING</subject>
+    <message>REGARDS DMART</message>   
+</GROCERY>

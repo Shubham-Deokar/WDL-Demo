@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GROCERY [
+<!ELEMENT GROCERY (to,from,type,price,subject,messsage)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+]>
+<GROCERY>
+    <to>Shubham</to>
+    <from>DMART SERVICES</from>
+    <type>groceries</type>
+    <price>450rs</price>
+    <subject>THANKYOU FOR VISITING</subject>
+    <message>REGARDS DMART</message>   
+</GROCERY>
