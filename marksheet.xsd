@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+<xs:element name: "marksheet">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="dept" type"xs:string"/>
+            <xs:element name="dname" type"xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="student">
+        <xs:sequence>
+            <xs:element name="s_id" type"xs:string"/>
+            <xs:element name="s_name" type"xs:string"/>
+            <xs:element name="s_email" type"xs:string"/>
+            <xs:element name="s_phno" type"xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="sem no">
+        <xs:sequence>
+            <xs:element name="subj" type"xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

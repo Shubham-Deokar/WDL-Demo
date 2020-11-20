@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE marksheet [
+<!ELEMENT marksheet (dept+)>
+<!ELEMENT dept (dname, student+)>
+<!ELEMENT dname (#PCDATA)>
+<!ELEMENT student (s_id, s_name, s_email?, s_phno*, sem+)>
+<!ELEMENT s_id (#PCDATA)>
+<!ELEMENT s_name (#PCDATA)>
+<!ELEMENT s_email (#PCDATA)>
+<!ELEMENT s_phno (#PCDATA)>
+<!ELEMENT sem (subj+)>
+<!ATTLIST sem no CDATA #REQUIRED>
+<!ELEMENT subj (#PCDATA)>
+<!ATTLIST subj sname CDATA #REQUIRED>
+]>
+<marksheet>
+    <dept>
+        <dname>Comps</dname>
+        <student>
+            <s_id>101</s_id>
+            <s_name>abc</s_name>
+            <s_email>abc@gmail.com</s_email>
+            <s_phno>9876543210</s_phno>
+            <sem no='5'>
+                <subj sname='WT'>20</subj>
+                <subj sname='OS'>19</subj>
+                <subj sname='MP'>17</subj>
+            </sem>
+        </student>
+        <student>
+            <s_id>102</s_id>
+            <s_name>xyz</s_name>
+            <s_email>xyz@gmail.com</s_email>
+            <sem no='5'>
+                <subj sname='WT'>17</subj>
+                <subj sname='OS'>18</subj>
+                <subj sname='MP'>15</subj>
+            </sem>
+        </student>
+    </dept>
+    <dept>
+        <dname>Mech</dname>
+        <student>
+            <s_id>501</s_id>
+            <s_name>raj</s_name>
+            <s_email>raj@gmail.com</s_email>
+            <sem no='5'>
+                <subj sname='PP3'>15</subj>
+                <subj sname='DS'>14</subj>
+                <subj sname='HD'>19</subj>
+            </sem>
+        </student>
+    </dept>
+</marksheet>

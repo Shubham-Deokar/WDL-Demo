@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marksheet  xsi:schemalocation="D:\Shubham\marksheet.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dept>
+        <dname>Comps</dname>
+        <student>
+            <s_id>101</s_id>
+            <s_name>abc</s_name>
+            <s_email>abc@gmail.com</s_email>
+            <s_phno>9876543210</s_phno>
+            <sem no='5'>
+                <subj sname='WT'>20</subj>
+                <subj sname='OS'>19</subj>
+                <subj sname='MP'>17</subj>
+            </sem>
+        </student>
+        <student>
+            <s_id>102</s_id>
+            <s_name>xyz</s_name>
+            <s_email>xyz@gmail.com</s_email>
+            <sem no='5'>
+                <subj sname='WT'>17</subj>
+                <subj sname='OS'>18</subj>
+                <subj sname='MP'>15</subj>
+            </sem>
+        </student>
+    </dept>
+    <dept>
+        <dname>Mech</dname>
+        <student>
+            <s_id>501</s_id>
+            <s_name>raj</s_name>
+            <s_email>raj@gmail.com</s_email>
+            <sem no='5'>
+                <subj sname='PP3'>15</subj>
+                <subj sname='DS'>14</subj>
+                <subj sname='HD'>19</subj>
+            </sem>
+        </student>
+    </dept>
+</marksheet>
