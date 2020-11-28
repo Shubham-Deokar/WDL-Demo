@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<marksheet  xsi:schemalocation="D:\Shubham\marksheet.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<marksheet  xsi:schemalocation="D:\Repository2\Practicals\marksheet.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <dept>
         <dname>Comps</dname>
         <student>
